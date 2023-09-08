@@ -25,7 +25,7 @@ axiosClient.defaults.headers = {
   Accept: 'application/json',
 };
 
-axiosClient.defaults.baseURL = 'http://localhost:8000';
+axiosClient.defaults.baseURL = 'https://drivescan.vercel.app';
 
 axiosClient.defaults.timeout = 60000;
 
