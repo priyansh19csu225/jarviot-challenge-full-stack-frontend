@@ -1,0 +1,21 @@
+.message {
+    color: #fff;
+    font-size: 56px;
+    padding: 10px; /* Padding around the message */
+    text-align: left;
+    
+ 
+  }
+  
+  .get-started-button {
+    display: flex;
+   align-self: left;
+    padding: 20px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    
+  }
+  

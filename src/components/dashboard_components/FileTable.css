@@ -1,0 +1,47 @@
+
+.table-container {
+    width:90%;
+
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .file-table {
+    color: gray;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+  }
+  
+  .file-table th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+
+  
+  .file-table thead {
+    
+   border-bottom: 1px solid #ddd;
+  }
+  
+  
+  .file-table td {
+    padding: 10px;
+    transition: background-color 0.2s ease-in;
+    text-align: left;
+  }
+
+
+
+  .filename{
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+  }
+  
+  .filename:hover{
+    color: blue;
+  }
+ 

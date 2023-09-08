@@ -1,0 +1,47 @@
+.navbar {
+    color: #fff;
+    padding: 23px 0;
+   background-color: #58469a;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    /* min-height: 10vh; */
+/*    
+    
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0; */
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+  }
+
+  
+  .navbar-title {
+    font-size: 32px;
+    font-weight: bold;
+    
+  }
+
+
+  .revoke-button {
+    position: absolute;
+    align-self: left;
+    padding: 10px 20px;
+    background-color: transparent; /* Set background color to transparent */
+    top: 24px;
+    left: 35px;
+    color: orange; /* Set text color to orange */
+    font-size: medium;
+    border: 2px solid orange; /* Add an orange border */
+    cursor: pointer;
+}
+
+.revoke-button:hover {
+    border: 2px solid white;
+    color: white;
+}
+  
